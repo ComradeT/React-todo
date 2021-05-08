@@ -31,7 +31,7 @@ function App() {
   return (
     <div className='todo'>
       <header className='top'>
-        <h1>Список задач: {todos.length}</h1>
+        <h1>Список задач 2: {todos.length}</h1>
       </header>
       <ToDoForm addTask={addTask}/>
       {todos.map((todo) => {
